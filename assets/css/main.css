@@ -32,6 +32,10 @@ img {
     height: auto;
 }
 
+body.single-post {
+    padding: 30px 0;
+}
+
 /* Container */
 .site-container {
     max-width: 1200px;
@@ -144,7 +148,6 @@ img {
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .content-area {
@@ -159,9 +162,13 @@ img {
 
 /* Artykuły - widok single */
 .single-post {
-    background: #fff;
     padding: 30px;
     border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+article.single-post {
+    background: white;
 }
 
 .single-post .entry-header {
@@ -638,8 +645,6 @@ img {
     font-size: 16px;
 }
 
-
-
 /* Categories Widget - liczniki w capsule */
 .fotka-categories-list {
     list-style: none;
@@ -657,7 +662,7 @@ img {
 }
 
 .fotka-categories-list a {
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     align-items: center;
     color: #333;
@@ -754,7 +759,6 @@ img {
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .footer-widgets {

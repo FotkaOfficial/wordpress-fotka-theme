@@ -27,7 +27,7 @@ class Fotka_Popular_Posts_Widget extends WP_Widget {
         echo $args['before_widget'];
         echo $args['before_title'] . esc_html($title) . $args['after_title'];
         
-        $popular_posts = fotka_get_popular_posts($number);
+        $popular_posts = fotka_get_popular_posts($number, 0);
         
         if ($popular_posts->have_posts()) {
             echo '<ul class="popular-posts-list">';

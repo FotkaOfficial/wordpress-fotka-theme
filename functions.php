@@ -10,7 +10,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Definicje stałych
-define('FOTKA_VERSION', '1.4.1');
+define('FOTKA_VERSION', '1.5.2');
 define('FOTKA_THEME_DIR', get_template_directory());
 define('FOTKA_THEME_URI', get_template_directory_uri());
 

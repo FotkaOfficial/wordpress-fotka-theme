@@ -209,6 +209,6 @@ W razie problemów:
 
 ---
 
-**Autor**: Your Name  
-**Wersja**: 1.0.0  
+**Autor**: Grzegorz Broża  
+**Wersja**: 1.5.2  
 **Wymaga**: WordPress 5.0+
